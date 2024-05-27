@@ -1,0 +1,4 @@
+model_dir:
+  frozen_graph: {engine: tensorflow, hardware: 'cpu,gpu,ascend910', type: frozen_graph}
+  model: {engine: tensorflow, hardware: 'cpu,gpu', type: saved_model}
+  om/model: {hardware: ascend310, type: offline_model}
